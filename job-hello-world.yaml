@@ -1,0 +1,11 @@
+resources:
+  - name: repo
+    type: git
+    source: {uri: https://github.com/vOlliestrator/concourse}
+
+jobs:
+  - name: job-hello-world
+    plan:
+      - get: repo
+      - task: task-hello-world
+        file: repo/task-hello-world.yaml

@@ -1,0 +1,5 @@
+jobs:
+  - name: job-hello-world
+    plan:
+      - task: task-hello-world
+        file: ./task-hello-world.yaml
