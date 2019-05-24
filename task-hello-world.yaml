@@ -7,5 +7,5 @@ image_resource:
 
 run:
         #  path: nginx/script.sh
-  path: pwd
+  path: ls
   args: ["-alR"]
