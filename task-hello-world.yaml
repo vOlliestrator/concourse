@@ -1,14 +1,10 @@
 ---
 platform: linux
 
-resources:
-- name: repo
-  type: git
-  source: {uri: https://github.com/vOlliestrator/concourse}
-
 image_resource:
   type: docker-image
   source: {repository: busybox}
 
 run:
-  path: nginx/script.sh
+        #  path: nginx/script.sh
+  path: ll
