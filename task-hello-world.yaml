@@ -6,5 +6,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: script.sh
+  path: nginx/script.sh
   args: []
